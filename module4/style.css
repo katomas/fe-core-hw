@@ -29,9 +29,11 @@
  	float: left;
  	margin: 10px;
  }
+
 ol {
 	list-style-type: none;
 }
+
 .list li h4 {
   margin-bottom: 5px;
 }
@@ -93,37 +95,41 @@ ol {
    border-color: #5099BA;
    color: white;
    text-align: center;
-
 }
+
 .font {
 	margin: 40px;
 	font-family: 'Pathway Gothic One', sans-serif;
 	color: #263555;	
 }
+
 .font2 {
-    font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
 	color: #263555;
 	margin: 1px;
 }
-.font3 {
 
-	font-family: 'Didact Gothic', sans-serif;
+.font3 {
+  font-family: 'Didact Gothic', sans-serif;
 	color: black;
 }
+
 .line {
-    border-bottom: 1px solid #DEDBDB; 
+  border-bottom: 1px solid #DEDBDB; 
 	padding-bottom: 30px; 
 	margin-bottom: 30px;
 }
+
 ul {
 	columns: 2;
     list-style: inside disc;
 	list-style-type: none;
-	
 }
+
 li {
 	padding-left: 10px;
 }
+
 li::before {
    content:" ";
    height: 7px;
@@ -135,41 +141,43 @@ li::before {
 }
 
 .block {
-	margin: 40px;
-    position: relative;
-    width: 190px;
-    height: 150px;
-    padding: 8px;
-    background-color: #FCFAFA;
-    border: 1px solid #DEDBDB;
-  
+  margin: 40px;
+  position: relative;
+  width: 190px;
+  height: 150px;
+  padding: 8px;
+  background-color: #FCFAFA;
+  border: 1px solid #DEDBDB;
 }
+
 .size {
 	margin-top: 0px;
 }
+
 .block::before,
 .block::after {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 0;
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
 }
 
 .block::before {
-    border-top: 22px solid #DEDBDB;
-    border-left: 16px solid transparent;
-    border-right: 16px solid transparent;
-    bottom: -22px;
-    left: 84px;
+  border-top: 22px solid #DEDBDB;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  bottom: -22px;
+  left: 84px;
 }
 
 .block::after {
-    border-top: 20px solid #FCFAFA;
-    border-left: 14px solid transparent;
-    border-right: 14px solid transparent;
-    bottom: -20px;
-    left: 86px;
+  border-top: 20px solid #FCFAFA;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  bottom: -20px;
+  left: 86px;
 }
+
 .name {
     margin: 25px 5px;
     padding: 35px;
